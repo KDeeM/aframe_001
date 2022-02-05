@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learner 001</title>
+  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  <script src="https://unpkg.com/aframe-physics-system@1.4.0/dist/aframe-physics-system.min.js"></script>
+</head>
+<body>
+
+  <a-scene physics>
+    <a-box position="0 2 -5" rotation="45 45 45" color="#7c23af" dynamic-body></a-box>
+
+    <a-sphere position="0 0 -5" radius="0.5" color="#EF2D5E" ></a-sphere>
+    <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+
+    <a-plane position="0 0 -5" rotation="-90 0 0" width="5" height="5" color="#7BC8A4" static-body></a-plane>
+    <a-sky color="#ffc69b"></a-sky>
+  </a-scene>
+
+</body>
+</html>
